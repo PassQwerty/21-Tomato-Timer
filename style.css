@@ -12,7 +12,7 @@ body {
 }
 
 #tomato-timer{
-    padding-bottom: 130px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
