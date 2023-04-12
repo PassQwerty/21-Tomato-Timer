@@ -6,31 +6,30 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    display: grid;
-    grid-template-columns: 300px 1fr;
+    display: flex;
     font-size: 18px;
     font-family: 'Baloo Tammudu', cursive;
 }
 
 #tomato-timer{
     padding-bottom: 130px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: #ffa90040;
+    width: 100vw;
 }
 
 
 #menu{
     padding-bottom: 100px;
-
     display: grid;
     justify-items: center;
     align-items: center;
-
     background-color: #C55E5E;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #settings{
