@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tomato Timer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="menu">
+      <div id="settings">
+        <p class="settings-text">
+          <span>Время работы</span>
+          <input
+            class="settings-input"
+            id="input-time"
+            type="text"
+            placeholder="Введите время в мин..."
+            id="input-form"
+          />
+        </p>
+        <p class="settings-text">
+          <span>Время мал. перерыва</span>
+          <input
+            class="settings-input"
+            id="input-little-time"
+            type="text"
+            placeholder="Введите время в мин..."
+            id="input-form"
+          />
+        </p>
+        <p class="settings-text">
+          <span>Время бол. перерыва</span>
+          <input
+            class="settings-input"
+            id="input-big-time"
+            type="text"
+            placeholder="Введите время в мин..."
+            id="input-form"
+          />
+        </p>
+        <div id="settings-cont-btn">
+          <button class="btn" id="accept">Принять</button>
+          <button class="btn" id="reset">Сбросить</button>
+          <button class="btn" id="standard">Стандарт</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="tomato-timer">
+      <img id="tomato" src="img/tomato-cartoon.svg" alt="" />
+      <div id="timer">25:00</div>
+      <div id="timer-cont-btn">
+        <button class="btn btn-controll btnStart">ᐅ</button>
+        <button class="btn btn-controll btnStop">||</button>
+        <button class="btn btn-controll btnReset">⟳</button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

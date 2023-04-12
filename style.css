@@ -1,0 +1,128 @@
+/* http://www.tomatotimers.com/ */
+
+/* background-color: #ffa90040; */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    font-size: 18px;
+    font-family: 'Baloo Tammudu', cursive;
+}
+
+#tomato-timer{
+    padding-bottom: 130px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffa90040;
+}
+
+
+#menu{
+    padding-bottom: 100px;
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+    background-color: #C55E5E;
+}
+
+#settings{
+    display: grid;
+    grid-template-columns: 228px;
+}
+
+#settings-cont-btn{
+    display: grid;
+    grid-template-rows: repeat(3, 36px);
+    gap: 9px;
+}
+
+.settings-text{
+    display: grid;
+}
+
+.settings-text > span{
+    padding-bottom: 10px;
+    font-weight: bold;
+    justify-self: center;
+
+    color: #ffc9b6;
+}
+
+.btn{
+    background-color: #ffece4;
+    color: #af3d45;
+    border: 2px solid #8d2222e8;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: 'Baloo Tammudu', cursive;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: #ffc9b6;
+    color: #da4c56;
+}
+
+#tomato{
+    width: 270px;
+}
+
+#timer{
+    font-size: 100px;
+    color: #da4c56;
+    font-weight: bold;
+}
+
+#timer-cont-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+}
+
+.btn-controll {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.settings-input{
+    padding: 10px 10px 10px 10px;
+    border: 3.5px solid #8d2222e8;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Baloo Tammudu', cursive;
+    transition: border 0.4s;
+}
+
+.settings-input:focus{
+    border: 3.5px solid #5e1717;
+    font-weight: bold;
+}
+
+#navbar-btn{
+    background-color: #ffece4;
+    color: #af3d45;
+    border: 2px solid #8d2222e8;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: 'Baloo Tammudu', cursive;
+    transition: 0.4s;
+}
+
+#navbar-btn:hover {
+    background-color: #ffc9b6;
+    color: #da4c56;
+}
